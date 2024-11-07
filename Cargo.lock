@@ -109,7 +109,7 @@ dependencies = [
  "ctrlc",
  "curl",
  "dirs",
- "dockurl",
+ "dockerapi",
  "glob",
  "lazy_static",
  "rand",
@@ -274,10 +274,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "dockurl"
+name = "dockerapi"
 version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1656ac82df3e1cc958ab4452dd50fa695a04100529f15604a885bdade216674a"
+checksum = "451bb1e9d79b76d21ae5cc0a865e28d65cfff85fb682d79092c304601d653e74"
 dependencies = [
  "curl",
  "serde",

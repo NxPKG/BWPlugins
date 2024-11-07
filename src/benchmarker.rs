@@ -141,7 +141,7 @@ impl<'a> Benchmarker<'a> {
                     });
                 }
             })
-                .unwrap();
+            .unwrap();
         }
 
         benchmarker

@@ -1,5 +1,5 @@
 use crate::benchmarker::modes;
-use crate::docker::network::{get_network_id, get_bw_network_id};
+use crate::docker::network::{get_bw_network_id, get_network_id};
 use crate::io::{create_results_dir, Logger};
 use crate::options;
 use dockurl::network::NetworkMode::{Bridge, Host};
